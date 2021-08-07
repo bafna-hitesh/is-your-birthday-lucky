@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+body{
+    background-color: antiquewhite;
+    background-image: url("https://i.pinimg.com/originals/9b/55/ff/9b55ff0666aeed223caa0b01a7f94852.gif"); 
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    text-align: center; 
+    text-shadow: 10px;
+    font-size: 250%; 
+    font-style: inherit;
+    color: #F87171;
+}
+h2, #output{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+#birthdate , #luckynumber {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 30px;
+    width: 200px;
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    background-color: white;;
+  }
+
+button{
+    display: block;
+    margin: 1rem auto ;
+    padding: 0.5rem 2rem; 
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    background-color: white;
+}
+
+button:hover{
+    color: white;
+    background-color: #1E3A8A;
+}
+
+.footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 60px;
+    background-color: #D0DAEE;
+    padding: 20px 0;
+    ma
+}
+.footer .list{
+    list-style: none; 
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.footer .list a{
+    font-size: 30px;
+    width: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px;
+}
+
+#notice{
+    text-align: center;
+    padding: 10px ;
+    font-size: 20px;
+    color: #9D174D;
+    
+}
